@@ -1,18 +1,16 @@
-### lazy-fetch
+# lazy-fetch
 
-Define model for fetch api and call it later.
+  Define model for fetch api and call it later.
 
-### Installation
-
-```
-npm install lazy-fetch
-```
-
-### Examples
-
-#### step 1 Define
+## Installation
 
 ```
+$ npm install lazy-fetch
+```
+
+## Examples
+
+```js
 'use strict';
 var LazyFetch = require('lazy-fetch');
 
@@ -28,9 +26,9 @@ module.exports = LazyFetch
     .add('searchTopic', 'GET', '/topic/search');
 ```
 
-#### step 1 Use
+## Usage
 
-```
+```js
 _fetchTopicList: function() {
     models.getTopicList({ limit: 98 })
       .then((r) => { return r.json(); })
@@ -40,6 +38,5 @@ _fetchTopicList: function() {
   }
 ```
 
-### License
-
-MIT
+# License
+  MIT
