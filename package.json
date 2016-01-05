@@ -1,0 +1,20 @@
+{
+  "name": "lazy-fetch",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qddegtya/lazy-fetch.git"
+  },
+  "keywords": [
+    "fetch",
+    "network"
+  ],
+  "author": "archer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qddegtya/lazy-fetch/issues"
+  },
+  "homepage": "https://github.com/qddegtya/lazy-fetch#readme"
+}
