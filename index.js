@@ -9,13 +9,13 @@
  *
  * Step 1 - Collect models.
  *
- * var models = LazyFetch.url('http://api.hujiang.com/v1')
+ * var models = LazyFetch.url('http://api.xxx.com/v1')
  *          .headers({
  *            'Accept': 'application/json',
  *            'Content-Type': 'application/json',
  *          })
- *          .add('getHomePageData', 'GET', { 'page': 1 })
- *          .add('getDetailPageData', 'POST', { 'id': 1 })
+ *          .add('getTopicList', 'GET', '/topic')
+ *          .add('searchTopic', 'GET', '/topic/search');
  *
  * Step 2 - Use models.
  *
