@@ -1,4 +1,4 @@
-[![NPM](https://nodei.co/npm/lazy-fetch.png)](https://npmjs.org/package/lazy-fetch)
+[![NPM](https://nodei.co/npm/lazy-fetch.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/lazy-fetch/)
 
 # lazy-fetch
 
